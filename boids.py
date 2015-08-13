@@ -6,12 +6,10 @@ class boids:
 		self.sp   = speed
 		self.dirc = direction
 		
-	def printVel(self):
-		return self.vel
-	def printPos(self):
-		return self.pos
-	def printSp(self):
-		return self.sp
-	def printDirc(self):
-		return self.dirc
+	def printInfo(self):
+		print 'Velocity: ' , self.vel
+		print 'Position: ' , self.pos
+		print 'Speed: '    , self.sp
+		print 'Direction: ', self.dirc
+
 

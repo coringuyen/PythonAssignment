@@ -7,5 +7,7 @@ with open("classNames.txt") as listname:
 		wholename.append(name)
 	print wholename	
 	
-for names in wholename:
+	for names in wholename
+	names.split(" ")
+	
 	

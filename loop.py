@@ -1,5 +1,4 @@
 
-
 while True:
 	guess = input("Guess a number between 1-10: ")
 
